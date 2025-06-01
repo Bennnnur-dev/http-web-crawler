@@ -37,10 +37,10 @@ export async function crawlPage(baseURL, currentURL, pages) {
     for (const nextURL of nextURLs) {
       pages = await crawlPage(baseURL, nextURL, pages);
     }
-    return pages;
-  } catch (error) {
+  } catch (err) {
     console.log(`error in fetch: ${err.message} on page ${currentURL}`);
   }
+  return pages;
 }
 
 export function getURLsFromHTML(htmlBody, baseURL) {
