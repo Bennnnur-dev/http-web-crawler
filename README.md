@@ -1,6 +1,6 @@
 # Crawler pour petit sites web
 
-## Permet d'effectuer une recherche de tous les liens (<a>) d'un site web afin d'afficher un rapport SEO.
+## Permet d'effectuer une recherche de tous les liens `<a>` d'un site web afin d'afficher un rapport SEO.
 
 # Démarrage:
 
