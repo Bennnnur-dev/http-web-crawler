@@ -4,7 +4,6 @@
   "main": "app.js",
   "type": "module",
   "scripts": {
-    "test": "jest",
     "crawl": "node src/app.mjs"
   },
   "keywords": [],
